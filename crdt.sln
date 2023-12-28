@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{085B45E6-FA34-45B8-996F-8B5FFE3B8161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRDT", "src\CRDT\CRDT.csproj", "{A8A32148-14DB-4202-9C4A-1F3554032B44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CD168EC9-9939-4649-992F-5BC9FA21BDB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRDTTest", "test\CRDTTest\CRDTTest.csproj", "{BFC6303D-2AFF-4E14-8DD8-A044A8A123CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8A32148-14DB-4202-9C4A-1F3554032B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A32148-14DB-4202-9C4A-1F3554032B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A32148-14DB-4202-9C4A-1F3554032B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A32148-14DB-4202-9C4A-1F3554032B44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC6303D-2AFF-4E14-8DD8-A044A8A123CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC6303D-2AFF-4E14-8DD8-A044A8A123CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC6303D-2AFF-4E14-8DD8-A044A8A123CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC6303D-2AFF-4E14-8DD8-A044A8A123CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8A32148-14DB-4202-9C4A-1F3554032B44} = {085B45E6-FA34-45B8-996F-8B5FFE3B8161}
+		{BFC6303D-2AFF-4E14-8DD8-A044A8A123CB} = {CD168EC9-9939-4649-992F-5BC9FA21BDB2}
+	EndGlobalSection
+EndGlobal
